@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIntensityTrans.a  CMakeFiles/IntensityTrans.dir/IntensityTrans.cpp.o
+/usr/bin/ranlib libIntensityTrans.a
