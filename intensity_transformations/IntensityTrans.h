@@ -19,9 +19,13 @@ public:
 
 public:
     void getHist();
-    void getLinetrans();
+    void getHistEqualize();
+    void getReverseTrans();
+    void getLineTrans();
     void getLogTrans();
     void getGamaTrans();
     void getThresholdTrans();
     void getSegLineTrans();
+    void getIntensitySlicingTrans();
+    void getBitSlicingTrans();
 };

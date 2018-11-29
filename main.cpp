@@ -13,11 +13,15 @@ int main(int argc, char **argv)
     cvtColor(image_src, gray_image_src, COLOR_BGR2GRAY);
     IntensityTrans intensity_trans(gray_image_src);
     // intensity_trans.getHist();
-    // intensity_trans.getLinetrans();
+    // intensity_trans.getReverseTrans();
+    // intensity_trans.getLineTrans();
     // intensity_trans.getLogTrans();
     // intensity_trans.getGamaTrans();
     // intensity_trans.getThresholdTrans();
-    intensity_trans.getSegLineTrans();
+    // intensity_trans.getSegLineTrans();
+    // intensity_trans.getIntensitySlicingTrans();
+    // intensity_trans.getBitSlicingTrans();
+    intensity_trans.getHistEqualize();
     waitKey(0);
     return 0;
 }
